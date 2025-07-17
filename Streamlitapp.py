@@ -15,7 +15,7 @@ def get_classifier():
         tokenizer=r"local_model",
         device = -1)
 
-classifier = get_classifier()
+classifier = classifier = pipeline("zero-shot-classification", model="facebook/bart-large-mnli", device=-1)
 
 # Define candidate labels
 sentiment_labels = ['Positive', 'Negative', 'Neutral']
