@@ -20,4 +20,6 @@ pip install -r requirements.txt
 ```
 ## Run the Model
 In Command Prompt, navigate to the directory where you pulled the repository and run:
+```
 streamlit run Streamlitapp.py
+```
