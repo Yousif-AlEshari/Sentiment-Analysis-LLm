@@ -15,7 +15,7 @@ st.write("Analyze sentiment and intent from customer text using a zero-shot LLM.
      #   tokenizer=r"local_model",
     #    device = -1)
 
-classifier = classifier = pipeline("zero-shot-classification", model="facebook/bart-large-mnli", device=-1)
+classifier = pipeline("zero-shot-classification", model="facebook/bart-large-mnli", device=-1)
 
 # Define candidate labels
 sentiment_labels = ['Positive', 'Negative', 'Neutral']
